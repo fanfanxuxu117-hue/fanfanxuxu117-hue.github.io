@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yang | Portfolio</title>
+  <title>Yang|Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Arial, "Microsoft YaHei", "PingFang SC", sans-serif;
       margin: 0;
       padding: 0;
       background: #f5f7fb;
       color: #222;
-      line-height: 1.6;
+      line-height: 1.7;
     }
     header {
       background: #0b5ed7;
@@ -27,16 +27,37 @@
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
-    h1, h2 {
+    h1, h2, h3 {
       margin-top: 0;
     }
+    .cn {
+      display: block;
+      font-size: 1.05em;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .en {
+      display: block;
+      font-size: 0.98em;
+      color: #444;
+      margin-bottom: 12px;
+    }
     .project {
-      margin-bottom: 20px;
-      padding-bottom: 15px;
+      margin-bottom: 24px;
+      padding-bottom: 18px;
       border-bottom: 1px solid #ddd;
     }
     .project:last-child {
       border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    a {
+      color: #0b5ed7;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     footer {
       text-align: center;
@@ -47,42 +68,100 @@
 </head>
 <body>
   <header>
-    <h1>Zhiyang</h1>
-    <p>Telecommunication Engineering</p>
-    <p>Focused on Antennas, RF Design, Microwave Circuits, and Electromagnetic Simulation</p>
+    <h1>
+      <span class="cn">志洋的个人项目主页</span>
+      <span class="en">Zhiyang's Personal Project Portfolio</span>
+    </h1>
+    
+   
+    <p>
+      <span class="cn">研究方向：天线设计、射频设计、微波电路与电磁仿真</span>
+      <span class="en">Focus Areas: Antenna Design, RF Design, Microwave Circuits, and Electromagnetic Simulation</span>
+    </p>
   </header>
 
-<section>
-  <h2>Projects</h2>
-
-  <div class="project">
-    <h3>Microstrip Antenna Design</h3>
-    <p>Designed and optimized microstrip antennas for wireless applications using electromagnetic simulation tools.</p>
-    <p><a href="antenna1.pdf" target="_blank">View report</a></p>
-  </div>
-
-  <div class="project">
-    <h3>IFA Antenna Simulation</h3>
-    <p>Analyzed impedance matching, S-parameters, and radiation characteristics of IFA antenna structures.</p>
-    <p><a href="antenna2.pdf" target="_blank">View report</a></p>
-  </div>
-
-  <div class="project">
-    <h3>Microwave Circuit Design in ADS</h3>
-    <p>Developed microwave passive circuits and analyzed RF performance using ADS and Momentum.</p>
-    <p><a href="antenna3.pdf" target="_blank">View report</a></p>
-  </div>
-
-  <div class="project">
-    <h3>MATLAB Numerical Analysis</h3>
-    <p>Used MATLAB for signal processing, numerical modeling, and simulation result analysis.</p>
-    <p><a href="antenna4.pdf" target="_blank">View report</a></p>
-  </div>
-</section>
  
+  <section>
+    <h2>
+      <span class="cn">项目经历</span>
+      <span class="en">Projects</span>
+    </h2>
+
+    <div class="project">
+      <h3>
+        <span class="cn">微带天线设计</span>
+        <span class="en">Microstrip Antenna Design</span>
+      </h3>
+      <p>
+        <span class="cn">针对无线应用设计并优化微带天线，使用电磁仿真工具分析其性能。</span>
+        <span class="en">Designed and optimized microstrip antennas for wireless applications using electromagnetic simulation tools.</span>
+      </p>
+      <p>
+        <a href="antenna1.pdf" target="_blank">
+          <span class="cn">查看 PDF 文件</span>
+          <span class="en">View PDF File</span>
+        </a>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>
+        <span class="cn">IFA 天线仿真</span>
+        <span class="en">IFA Antenna Simulation</span>
+      </h3>
+      <p>
+        <span class="cn">分析 IFA 天线结构的阻抗匹配、S 参数以及辐射特性。</span>
+        <span class="en">Analyzed impedance matching, S-parameters, and radiation characteristics of IFA antenna structures.</span>
+      </p>
+      <p>
+        <a href="antenna2.pdf" target="_blank">
+          <span class="cn">查看 PDF 文件</span>
+          <span class="en">View PDF File</span>
+        </a>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>
+        <span class="cn">ADS 微波电路设计</span>
+        <span class="en">Microwave Circuit Design in ADS</span>
+      </h3>
+      <p>
+        <span class="cn">使用 ADS 和 Momentum 开发微波无源电路，并分析其射频性能。</span>
+        <span class="en">Developed microwave passive circuits and analyzed RF performance using ADS and Momentum.</span>
+      </p>
+      <p>
+        <a href="antenna3.pdf" target="_blank">
+          <span class="cn">查看 PDF 文件</span>
+          <span class="en">View PDF File</span>
+        </a>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>
+        <span class="cn">MATLAB 数值分析</span>
+        <span class="en">MATLAB Numerical Analysis</span>
+      </h3>
+      <p>
+        <span class="cn">使用 MATLAB 进行信号处理、数值建模以及仿真结果分析。</span>
+        <span class="en">Used MATLAB for signal processing, numerical modeling, and simulation result analysis.</span>
+      </p>
+      <p>
+        <a href="antenna4.pdf" target="_blank">
+          <span class="cn">查看 PDF 文件</span>
+          <span class="en">View PDF File</span>
+        </a>
+      </p>
+    </div>
+  </section>
+
   
+
   <footer>
-    <p>© 2026 Yang</p>
+    <p>
+      <span class="en">© 2026 Zhiyang's Personal Website</span>
+    </p>
   </footer>
 </body>
 </html>
